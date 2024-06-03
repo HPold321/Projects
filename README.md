@@ -1,4 +1,4 @@
-# Projects
+# yolov8-objDetection
 This is how this module of streamlit-frontend works. But first let's get to know about the project. 
 
 
