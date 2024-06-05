@@ -10,7 +10,7 @@ This project is a Streamlit web application for object detection in images and v
 
 - Allows users to upload images or videos for object detection.
 - Supports detection in both images and videos.
-- Real-time annotation of detected objects.
+- Real-time bounding boxes createdc on actual images of deected objects.
 - Provides options to either upload files from the local machine or enter URLs.
 - Supports stopping the detection process (for videos) via a keyboard shortcut (Ctrl+Q).
 - Uses YOLOv8 in integration with SAHI for object detection in images and videos.
