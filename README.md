@@ -27,10 +27,7 @@ This project is a chatbot created from scratch using a Streamlit UI and Hugging 
 ## Installation
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/streamlit-chatbot.git
-   cd streamlit-chatbot
-   ```
+   
 2. Download the required packages from pip:
    ```bash
    pip3 install spacy
