@@ -33,6 +33,7 @@ Replace your_script_name.py with the name of your script file containing the pro
 ## Usage
 
 - This script demonstrates how to load the Mistral-7B-v0.1-GGUF model and generate text using the `ctransformers` library.
+- You might need to load hugging face CLI to give authentication, tokens, etc. 
 - You would need to add the model to authorized in your hugging face account and use your privately generated 'finegrain' token. Give it permission to author programs with the free model before you can run th main.py file. 
 
 I am using this model for Content genneration and basically just observing how different prompting technques give different outputs and which one can be used. 
