@@ -1,6 +1,6 @@
-# Streamlit Chatbot with Hugging Face Models
+# Streamlit Chatbot (WW2) with Hugging Face Models
 
-This project is a chatbot created from scratch using a Streamlit UI and Hugging Face models in Python. The chatbot utilizes a text-to-text pipeline with a pre-trained model from Hugging Face to generate coherent answers based on provided questions and contexts.
+This project is a chatbot created from scratch using a Streamlit UI and Hugging Face models in Python. The chatbot utilizes a text-to-text pipeline with a pre-trained model from Hugging Face to generate coherent answers based on provided questions and contexts. Specifically, this chatbot specialises in nswering questions about the World War 2. (If you use the provided dataset).
 
 ## Project Structure
 
