@@ -1,0 +1,10 @@
+from ctransformers import AutoModelForCausalLM
+
+# Set gpu_layers to the number of layers to offload to GPU. Set to 0 if no GPU acceleration is available on your system.
+llm = AutoModelForCausalLM.from_pretrained("TheBloke/Mistral-7B-v0.1-GGUF", model_file="mistral-7b-v0.1.Q4_K_M.gguf", model_type="mistral", gpu_layers=0)
+
+
+text = """The quick brown fox jumps over the lazy dog. The rain in Spain falls mainly on the plain.
+This is a longer sentence to show summarization capabilities."""
+
+print(llm( f"""Summarize the following {text} in 4 words."""))
