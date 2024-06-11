@@ -1,0 +1,5 @@
+train: /home/ananya/Documents/yolov8_pytorch/dataset/train/images
+val: /home/ananya/Documents/yolov8_pytorch/dataset/val/images
+
+nc: 3
+names: ['green','yellow', 'red']
